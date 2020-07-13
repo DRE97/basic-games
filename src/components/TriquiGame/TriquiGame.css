@@ -1,0 +1,83 @@
+
+h2 {
+  margin: 0 !important;
+}
+
+.game-title {
+  margin-bottom: 20px;
+}
+
+.game-box {
+  position: absolute;
+  top: 15%;
+  left: 29%;
+  width: 520px;
+}
+
+.triqui-game {
+  width: 500px;
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cube {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.cube:hover {
+  background-color: #FFFFFF;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.instructions {
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 10px;
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+}
+
+.unfinished {
+  display: none;
+}
+
+.finished {
+  width: 320px;
+  height: 320px;
+  background-color: rgba(153, 167, 199, 0.95);
+  text-align: center;
+  position: absolute;
+  top: 26%;
+  left: 37%;
+  border-radius: 8px;
+}
+
+.result-title {
+  position: relative;
+  top: 30%;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.result-button {
+  width: auto;
+  position: relative;
+  top: 45%;
+}
+
+.result-button input {
+  text-align: center;
+  width: 200px;
+  background-color: #314269;
+  color: #FFFFFF;
+  border-radius: 8px;
+}

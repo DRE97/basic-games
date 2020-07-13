@@ -1,0 +1,20 @@
+
+.rectangle {
+  height: 100px;
+  position: relative;
+  padding: 5px 5px;
+}
+
+.rectangle:hover {
+  background-color: #E3E3E3;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cubes-images {
+  padding-bottom: 10px;
+}
+
+#doors-instructions {
+
+}

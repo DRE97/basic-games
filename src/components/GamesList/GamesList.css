@@ -1,0 +1,39 @@
+
+.games-section {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 20%;
+  left: 12%;
+  display: block;
+  align-items: center;
+  align-content: center;
+}
+
+.title {
+  color: #FFFFFF;
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 0;
+  width: auto;
+}
+
+.games {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.test {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.test:hover {
+  background-color: rgba(153, 167, 199, 0.78);
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+}

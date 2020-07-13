@@ -1,0 +1,30 @@
+
+.Navbar {
+  border-bottom: 1px solid #FFFFFF;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 10;
+  background-color: #2B2F38;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+img {
+  width: 70px;
+  height: 50px;
+  position: fixed;
+  top: 5px;
+  left: 20px;
+}
+
+.Navbar-title {
+  text-align: center;
+  width: 300px;
+  color: #FFFFFF;
+  position: fixed;
+  left: 37%;
+  bottom: 89%;
+}

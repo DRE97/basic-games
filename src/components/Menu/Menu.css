@@ -1,0 +1,50 @@
+
+
+input {
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  top: 12px;
+  right: 50px;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-link {
+  color: #FFFFFF;
+  border-radius: 7px;
+  padding: 5px;
+  width: 100%;
+}
+
+.menu-link:hover {
+  background-color: #646567;
+  transition: all 0.55s;
+}
+
+.visible {
+  display: grid;
+  padding-right: 20px;
+  position: fixed;
+  top: 90px;
+  right: 0;
+  background-color: #465E95;
+  border-radius: 10px;
+}
+
+.no-visible {
+  display: none;
+}
+
+input:hover {
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+}
