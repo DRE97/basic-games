@@ -18,11 +18,11 @@ class DoorsGame extends React.Component {
             <img className="closed-door" src={door} alt=""/>
           </div>
           <div id="doors-instructions" className="instructions">
-            <p>Instrucciones del juego:<br/>
-              Escondido detrás de una de estas puertas está el ChoreBot.<br/>
-              Tu misión es abrir todas las puertas sin toparte con el ChoreBot.<br/>
-              Si logras evitar el ChoreBot hasta que abras la última puerta, ¡ganas!<br/>
-              ¡Mira si puedes marcar una racha ganadora!<br/>
+            <h4>Instrucciones del juego:</h4>
+            <p>
+              Escondido detrás de una de estas puertas está el robot.<br/>
+              Tu misión es abrir todas las puertas sin toparte con el,<br/>
+              si logras evitar el robot hasta que abras la última puerta, ¡ganas!<br/>
             </p>
           </div>
         </div>

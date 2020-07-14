@@ -17,7 +17,7 @@ class GamesList extends React.Component {
         <div className="games">
           {this.props.games.map((item) => {
             i += 1;
-            return <Link to={id_juegos[i]} ><div className="test" id={id_juegos[i]} ><Games game={item}/></div></Link>
+            return <Link to={id_juegos[i]} ><div className="test" id={id_juegos[i]}><Games game={item}/></div></Link>
           })}
         </div>
       </div>
