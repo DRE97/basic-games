@@ -8,7 +8,7 @@ class Navbar extends React.Component {
     return (
       <div className="Navbar">
         <div className="icon">
-          <img src={logo} alt="icon"/>
+          <a href="../"><img src={logo} alt="icon"/></a>
         </div>
         <div id="Navbar-title" className="Navbar-title">
           <h1>Proyecto React</h1>

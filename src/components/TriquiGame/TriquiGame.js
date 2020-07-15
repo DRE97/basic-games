@@ -147,11 +147,11 @@ class TriquiGame extends React.Component {
             </p>
           </div>
         </div>
-        <div className={this.state.visible?'finished':'unfinished'}>
-          <div className="result-title">
+        <div className={this.state.visible?'finished-triqui':'unfinished'}>
+          <div className="result-title-triqui">
             <h2 className="result-header">{this.state.result}</h2>
           </div>
-          <div className="result-button">
+          <div className="result-button-triqui">
             <input type="button" value="JUGAR DE NUEVO" onClick={this.restart}/>
           </div>
         </div>

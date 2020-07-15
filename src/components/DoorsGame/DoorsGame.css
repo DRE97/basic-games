@@ -22,3 +22,30 @@
 #doors-box {
   width: auto;
 }
+
+.finished-doors {
+  width: 560px;
+  height: 280px;
+  background-color: rgba(153, 167, 199, 0.95);
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  border-radius: 8px;
+}
+
+.result-title {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #2B2F38;
+}
+
+.result-button-doors input {
+  text-align: center;
+  width: 200px;
+  background-color: #314269;
+  color: #FFFFFF;
+  border-radius: 8px;
+  position: relative;
+  left: 30%;
+}

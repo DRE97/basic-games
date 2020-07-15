@@ -24,7 +24,11 @@ img {
   text-align: center;
   width: 300px;
   color: #FFFFFF;
-  position: fixed;
+  position: relative;
   left: 37%;
-  bottom: 89%;
+  top: 8%;
+}
+
+.Navbar-title h1 {
+  margin: 0;
 }

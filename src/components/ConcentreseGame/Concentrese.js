@@ -182,12 +182,12 @@ class Concentrese extends React.Component {
             </p>
           </div>
         </div>
-        <div className={this.state.visible?'finished':'unfinished'}>
-          <div className="result-title">
+        <div className={this.state.visible?'finished-con':'unfinished'}>
+          <div className="result-title-con">
             <h2 className="result-header">Felicidades!!</h2>
             <h5 className="result-tries">Lo lograste en {this.state.tries} intentos.</h5>
           </div>
-          <div className="result-button">
+          <div className="result-button-con">
             <input type="button" value="JUGAR DE NUEVO" onClick={this.restart}/>
           </div>
         </div>

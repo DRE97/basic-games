@@ -19,7 +19,7 @@
   display: none;
 }
 
-.finished {
+.finished-con {
   width: 500px;
   height: 250px;
   background-color: rgba(153, 167, 199, 0.95);
@@ -30,27 +30,27 @@
   border-radius: 8px;
 }
 
-.result-title {
+.result-title-con {
   position: relative;
   top: 0;
   font-size: 40px;
-  color: #FFFFFF;
+  color: #2B2F38;
 }
 
 .result-tries {
   margin: 0;
-  color: #FFFFFF;
+  color: #2B2F38;
   padding-top: 20px;
 }
 
-.result-button {
+.result-button-con {
   width: auto;
   position: relative;
   top: 10%;
   right: 20%;
 }
 
-.result-button input {
+.result-button-con input {
   text-align: center;
   width: 200px;
   background-color: #314269;

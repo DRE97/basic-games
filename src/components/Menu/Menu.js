@@ -29,10 +29,10 @@ class Menu extends React.Component {
         </div>
         <div className={this.state.visible?'visible':'no-visible'}>
           <ul>
-            <li><a className="menu-link" href='../#App'>Juegos puzzle</a></li>
-            <li><a className="menu-link" href='../#App'>Calendario</a></li>
-            <li><a className="menu-link" href='../#App'>Tienda</a></li>
-            <li><a className="menu-link" href='../#App'>Contacto</a></li>
+            <li><a className="menu-link" href='../'>Juegos puzzle</a></li>
+            <li><a className="menu-link" href='../'>Calendario</a></li>
+            <li><a className="menu-link" href='../'>Tienda</a></li>
+            <li><a className="menu-link" href='../'>Contacto</a></li>
           </ul>
         </div>
       </div>
